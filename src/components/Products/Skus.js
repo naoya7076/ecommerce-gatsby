@@ -13,7 +13,7 @@ class Skus extends Component {
         stripe: null,
     }
     componentDidMount(){
-        const stripe = window.Stripe(process.env.GATSBY_STRIPE_PUBLIC_KEY)
+        const stripe = window.Stripe('pk_test_GeIec3XnqKOVaIpi5fSyNzMj00n9nCUniJ')
         this.setState({ stripe })
     }
     render(){
